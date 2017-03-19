@@ -15,7 +15,7 @@
     "bazel"
   ],
   "license": "MIT",
-  "main": "lib/bazel.js",
+  "main": "lib/build_bazel.js",
   "name": "build-bazel",
   "providedServices": {
     "builder": {
