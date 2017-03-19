@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "voucher": "^0.1.2"
+  },
+  "description": "Builds with Bazel",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "homepage": "https://github.com/dhollowa/bazel-build",
+  "keywords": [
+    "build",
+    "compile",
+    "make",
+    "productivity",
+    "bazel"
+  ],
+  "license": "MIT",
+  "main": "lib/bazel.js",
+  "name": "build-bazel",
+  "providedServices": {
+    "builder": {
+      "description": "Builds with Bazel",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "readme": "# Bazel for Atom (via atom-build)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhollowa/build-bazel.git"
+  },
+  "version": "0.0.0"
+}
